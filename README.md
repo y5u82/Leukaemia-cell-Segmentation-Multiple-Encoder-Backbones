@@ -58,7 +58,7 @@ The table below shows the final evaluation metrics for each model and the ensemb
 ### ResNet34
 
 <!-- Add your ResNet34 IoU and Loss plots here -->
-<!-- Example: ![ResNet34 Learning Curves](assets/resnet34_curves.jpg) -->
+<!-- Example: ![ResNet34 Learning Curves](assets/resnet34_curves.JPG) -->
 
 ![ResNet34 Learning Curves](assets/resnet34_curves.JPG)
 
@@ -69,9 +69,9 @@ Training IoU reached approximately 0.82 while test IoU plateaued around 0.68, in
 ### VGG19
 
 <!-- Add your VGG19 IoU and Loss plots here -->
-<!-- Example: ![VGG19 Learning Curves](assets/vgg19_curves.jpg) -->
+<!-- Example: ![VGG19 Learning Curves](assets/vgg19_curves.JPG) -->
 
-![VGG19 Learning Curves](assets/vgg19_curves.jpg)
+![VGG19 Learning Curves](assets/vgg19_curves.JPG)
 
 The smoothest training behaviour of the three models. Test IoU settles at around 0.70 with minimal noise, and the train and test loss curves track closely together throughout all 50 epochs, suggesting good generalisation with the least overfitting.
 
@@ -80,9 +80,9 @@ The smoothest training behaviour of the three models. Test IoU settles at around
 ### InceptionV3
 
 <!-- Add your InceptionV3 IoU and Loss plots here -->
-<!-- Example: ![InceptionV3 Learning Curves](assets/inceptionv3_curves.jpg) -->
+<!-- Example: ![InceptionV3 Learning Curves](assets/inceptionv3_curves.JPG) -->
 
-![InceptionV3 Learning Curves](assets/inceptionv3_curves.jpg)
+![InceptionV3 Learning Curves](assets/inceptionv3_curves.JPG)
 
 An interesting pattern here: the test loss drops faster than the training loss in the early epochs before the two converge. Test IoU plateaus at approximately 0.68, similar to ResNet34.
 
@@ -91,9 +91,9 @@ An interesting pattern here: the test loss drops faster than the training loss i
 ### Sample Predictions
 
 <!-- Add predicted mask visualisations here showing ground truth vs model output -->
-<!-- Example: ![Sample Predictions](assets/sample_predictions.jpg) -->
+<!-- Example: ![Sample Predictions](assets/ensamble_predictions.JPG) -->
 
-![Sample Predictions](assets/sample_predictions.jpg)
+![Sample Predictions](assets/ensamble_predictions.JPG)
 
 Each row shows the original blood smear image, the ground truth mask and the predicted segmentation mask from the ensemble model.
 
