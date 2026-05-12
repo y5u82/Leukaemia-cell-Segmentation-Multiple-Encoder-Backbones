@@ -58,9 +58,9 @@ The table below shows the final evaluation metrics for each model and the ensemb
 ### ResNet34
 
 <!-- Add your ResNet34 IoU and Loss plots here -->
-<!-- Example: ![ResNet34 Learning Curves](assets/resnet34_curves.png) -->
+<!-- Example: ![ResNet34 Learning Curves](assets/resnet34_curves.jpg) -->
 
-![ResNet34 Learning Curves](assets/resnet34_curves.png)
+![ResNet34 Learning Curves](assets/resnet34_curves.jpg)
 
 Training IoU reached approximately 0.82 while test IoU plateaued around 0.68, indicating some overfitting. The train and test loss curves converge but with a noticeable gap in the later epochs.
 
@@ -69,9 +69,9 @@ Training IoU reached approximately 0.82 while test IoU plateaued around 0.68, in
 ### VGG19
 
 <!-- Add your VGG19 IoU and Loss plots here -->
-<!-- Example: ![VGG19 Learning Curves](assets/vgg19_curves.png) -->
+<!-- Example: ![VGG19 Learning Curves](assets/vgg19_curves.jpg) -->
 
-![VGG19 Learning Curves](assets/vgg19_curves.png)
+![VGG19 Learning Curves](assets/vgg19_curves.jpg)
 
 The smoothest training behaviour of the three models. Test IoU settles at around 0.70 with minimal noise, and the train and test loss curves track closely together throughout all 50 epochs, suggesting good generalisation with the least overfitting.
 
@@ -80,9 +80,9 @@ The smoothest training behaviour of the three models. Test IoU settles at around
 ### InceptionV3
 
 <!-- Add your InceptionV3 IoU and Loss plots here -->
-<!-- Example: ![InceptionV3 Learning Curves](assets/inceptionv3_curves.png) -->
+<!-- Example: ![InceptionV3 Learning Curves](assets/inceptionv3_curves.jpg) -->
 
-![InceptionV3 Learning Curves](assets/inceptionv3_curves.png)
+![InceptionV3 Learning Curves](assets/inceptionv3_curves.jpg)
 
 An interesting pattern here: the test loss drops faster than the training loss in the early epochs before the two converge. Test IoU plateaus at approximately 0.68, similar to ResNet34.
 
@@ -91,9 +91,9 @@ An interesting pattern here: the test loss drops faster than the training loss i
 ### Sample Predictions
 
 <!-- Add predicted mask visualisations here showing ground truth vs model output -->
-<!-- Example: ![Sample Predictions](assets/sample_predictions.png) -->
+<!-- Example: ![Sample Predictions](assets/sample_predictions.jpg) -->
 
-![Sample Predictions](assets/sample_predictions.png)
+![Sample Predictions](assets/sample_predictions.jpg)
 
 Each row shows the original blood smear image, the ground truth mask and the predicted segmentation mask from the ensemble model.
 
@@ -132,10 +132,10 @@ Each image in ALL_IDB2 is a cropped image of a single cell from a peripheral blo
 ├── ensemble.ipynb               # Main training notebook (run this)
 ├── README.md                    # This file
 ├── assets/                      # Folder for images used in this README
-│   ├── resnet34_curves.png      # ResNet34 learning curve plot
-│   ├── vgg19_curves.png         # VGG19 learning curve plot
-│   ├── inceptionv3_curves.png   # InceptionV3 learning curve plot
-│   └── sample_predictions.png   # Example predicted masks
+│   ├── resnet34_curves.jpg      # ResNet34 learning curve plot
+│   ├── vgg19_curves.jpg         # VGG19 learning curve plot
+│   ├── inceptionv3_curves.jpg   # InceptionV3 learning curve plot
+│   └── sample_predictions.jpg   # Example predicted masks
 └── models/                      # Saved model weights (if you export them)
     ├── resnet34_model.h5
     ├── vgg19_model.h5
