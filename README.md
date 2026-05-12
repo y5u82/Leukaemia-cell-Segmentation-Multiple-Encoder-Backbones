@@ -129,7 +129,7 @@ Each image in ALL_IDB2 is a cropped image of a single cell from a peripheral blo
 ## Project Structure
 
 ```
-├── ensemble.ipynb               # Main training notebook (run this)
+├── ensemble_UNET_Multiback_bone.ipynb               # Main training notebook (run this)
 ├── README.md                    # This file
 ├── assets/                      # Folder for images used in this README
 │   ├── resnet34_curves.jpg      # ResNet34 learning curve plot
@@ -140,11 +140,6 @@ Each image in ALL_IDB2 is a cropped image of a single cell from a peripheral blo
     ├── resnet34_model.h5
     ├── vgg19_model.h5
     └── inceptionv3_model.h5
-```
-
-> The `assets/` folder needs to be created manually and your images added to it before the image links in this README will display correctly on GitHub.
-
----
 
 ## Requirements
 
