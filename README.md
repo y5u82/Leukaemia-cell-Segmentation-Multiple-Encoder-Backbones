@@ -60,7 +60,7 @@ The table below shows the final evaluation metrics for each model and the ensemb
 <!-- Add your ResNet34 IoU and Loss plots here -->
 <!-- Example: ![ResNet34 Learning Curves](assets/resnet34_curves.jpg) -->
 
-![ResNet34 Learning Curves](assets/resnet34_curves.jpg)
+![ResNet34 Learning Curves](assets/resnet34_curves.JPG)
 
 Training IoU reached approximately 0.82 while test IoU plateaued around 0.68, indicating some overfitting. The train and test loss curves converge but with a noticeable gap in the later epochs.
 
